@@ -1,19 +1,31 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//   console.log("Our js is linked to the html");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Our js is linked to the html");
 
-//   const header = document.querySelector("h1");
+  const header = document.querySelector("h1");
 
-//   const paragraph = document.getElementById("my-paragraph");
-//   paragraph.innerText = "New text";
+  const paragraph = document.getElementById("my-paragraph");
+  paragraph.innerText = "New text";
 
-//   console.log(paragraph);
-// });
+  console.log(paragraph);
 
-console.log("Our js is linked to the html");
+  const headings = document.getElementsByClassName("heading");
 
-const header = document.querySelector("h1");
+  console.log(headings);
 
-const paragraph = document.getElementById("my-paragraph");
-paragraph.innerText = "New text";
+  const paragraphs = document.getElementsByClassName('para1')
 
-console.log(paragraph);
+  console.log(paragraphs);
+});
+
+// console.log("Our js is linked to the html");
+
+// const header = document.querySelector("h1");
+
+// const paragraph = document.getElementById("my-paragraph");
+// paragraph.innerText = "New text";
+
+// console.log(paragraph);
+
+// const headings = document.getElementsByClassName("heading");
+
+// console.log(headings);
