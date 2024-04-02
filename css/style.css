@@ -1,5 +1,5 @@
 .heading {
-    color: aquamarine;
+    color: maroon;
 }
 
 #my-paragraph {
@@ -14,5 +14,5 @@
     padding: 10px;
     font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 30px;
+    border-radius: 10px;
 }

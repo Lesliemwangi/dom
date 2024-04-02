@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log(lastHeading);
 
+
   // document.querySelector("body > h1:nth-child(3)")
 
   // Creating elements dynamically and attach them to our html
